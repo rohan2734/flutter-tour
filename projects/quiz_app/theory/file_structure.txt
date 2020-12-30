@@ -1,0 +1,17 @@
+* android:
+ - when flutter code is compiled to native code, it is injected into adroid project, and that is the android project will be build on a  real phone
+* buid:
+ - it holds the output of the flutter application
+* ios:
+ - we had android folder, which is important for building an android project , for development and production, and for ios also it is the same
+ - in windows we wont have that folder, because in windows , unfortunately we cannot build ios applcations
+* lib:
+ - it is important folder, where we would do 99% of work
+ - this is the folder where we write files, and code
+* test:
+ - it allows us to write automated tests
+
+* pubspec.yaml
+ - it allows us to manage the dependencies 
+ - means, we can configure , the third party packages, our app uses,we can also use fonts, images,
+

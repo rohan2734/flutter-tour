@@ -25,3 +25,10 @@
 >wait unitl it boots up
 run >flutter run
 
+to initialize git repo
+>git init
+>git remote add origin <git-repo-link>
+>git add .
+>git commit -m"your message"
+>git push --set-upstream origin master
+
