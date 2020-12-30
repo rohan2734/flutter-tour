@@ -1,0 +1,12 @@
+* flutter  is a tool to build native cross platform apps, 
+  with one programming language and codebase
+
+* one programming language - Dart
+
+* A SDK (software development kit)
+
+* A framework/widget library - reusable UI building blocks, (= widgets),utility functions
+
+* flutter uses  a programming language called dart, it uses for frontend (mobile apps,web) user interface (UI) development
+
+* in flutter , everything is a widget

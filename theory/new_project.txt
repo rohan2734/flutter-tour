@@ -1,0 +1,27 @@
+* open cmd
+
+* go to D directory
+>D:
+
+* cd to the projects path
+>cd path
+
+>flutter create quiz_app
+//dont use -, use _
+
+* to use emulator
+>open android studio
+
+* if you are not able to see , create new project option,then
+>if you have already opened an existing project (skip this)
+>go to file,open any existing android folder of project,
+
+>now open tools>> avd manager
+>create virtual device >> select pixel2 ,with playstore image>next> select pie(stable android version)
+
+> you can change the name ,if you need, you can leave the default settings,
+>launch it by , pressing on play button
+
+>wait unitl it boots up
+run >flutter run
+
