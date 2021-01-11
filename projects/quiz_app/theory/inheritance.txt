@@ -1,0 +1,15 @@
+* here the MyApp class takes the basic properties of a another class, it is inheritance
+* and to inherit ,we use extends, and we can only inherit only one class 
+
+* if you extend StatelessWidget, you can create a widget
+
+* variables inside a class are called properties, and funcitons are called methods
+* the build takes context object and the flutter is going to execute build, so it is taking that argument, and it should return Widget
+* and we return Materialapp, inside a build function.
+
+* Materialapp takes so many arguments, and they are optional, so we mention arguments, (they dont need to be in order).
+
+* runApp , runs the app, it takes the widget tree, and draw that on app, and here it draws the Text button,
+* we should also say our primary widget in the runapp, and we pass the MyApp(), so that we pass an instance 
+
+* now runApp takes this and calls the build and executes it

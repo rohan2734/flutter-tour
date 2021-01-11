@@ -1,0 +1,4 @@
+* ui is built by adding widgets, they are building blocks of the component
+* text, app bar, title they all are the widgets
+* you can also configure the widgets
+* you can also build custom widget with a bunch of widgets
