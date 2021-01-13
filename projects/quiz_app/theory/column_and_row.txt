@@ -1,0 +1,5 @@
+* in the body, if you wanted the children to be shown , above each other, then use column
+* it takes list of children widgets
+
+* of you want the children to be shown next to each other, then use Row
+
