@@ -1,0 +1,4 @@
+leading underscore turns the public class to private class
+
+now the _MyAppState only is used by the MyApp class
+

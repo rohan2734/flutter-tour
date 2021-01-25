@@ -1,0 +1,18 @@
+In general  : State is data used by our app
+
+In app state: authenticated users, loaded jobs
+
+ Widget state :current User input  is a loading spinner shown
+
+ here the stateless widget also matters and Text is a stateless widget
+
+ some widgets have to change the state, now we can change the stateless widget to statefull widget
+
+ difference:
+ stateless
+ we cant pass data from outside into the stateless widget through the constructor of the class
+ flutter would rebuild ,when external data changes, but inside of the widget class, will not change
+
+ statefull
+ we can pass data from outside to statefull using constructor, and it will also have the state
+ it will get rerednered whenever, external input change, or input state change

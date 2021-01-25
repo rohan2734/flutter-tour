@@ -1,1 +1,6 @@
 flutter create first_app
+
+open AVD , start an emulator
+cd into the project
+
+run >flutter run

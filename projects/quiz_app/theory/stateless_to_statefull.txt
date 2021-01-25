@@ -1,0 +1,26 @@
+rename the stateless widget to statefull
+
+statefull widget is combinatio of 2 classes
+
+make a new class with the content
+
+now tell that the , new class should belong to MyApp
+
+State is a generic, so add a pointer, so we connect from one end, that State is part of myApp
+second connection:
+and we add from MyApp that
+we have to add a new method, createState method
+
+it is a method, that returns a state object, that is connected to a stateful widget 
+so we return  a myappstate object
+we have override, because createState, isa method provieded by statefulwidget
+
+
+ why we have 2 classes:
+ widget can be recreated,
+ when external data, changes it is recreated
+ while state, is persistent, it is not recreated, it is important for storing the data,
+
+
+here flutter wont rerender after each touch, it iwll only rerender, when we wrap it under a setSTate function
+setSTate is a method, it takes another function, and we move the code there

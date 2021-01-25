@@ -1,0 +1,4 @@
+setState is a function, it foreces flutter to rerender the UI,
+it calls the build mehthod of the widget
+
+when setState is called,the build method rerenders, and inside the flutter, there is a mechanism , where it only rerenders, which is updated, and  it does update only which is need to be changed
