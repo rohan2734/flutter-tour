@@ -1,0 +1,6 @@
+when we add a width property to the container, with width, double infiinity
+the container takes the whole space
+and automatically the child takes the space
+
+core of the container is always child, 
+we can setup padding, it is internal padding
